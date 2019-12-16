@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/myorder")
 public class MyOrderController {
 
-
+//666666
     @RequestMapping("/selectorderbyuser")
     public String selectOrderByUser() {
         return "myOrder";
